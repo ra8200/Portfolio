@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding:inherit 20px;
+    margin: 20px;
+}
+
+body {
+    background-color: gray;
+}
+
+.header {
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: whitesmoke;
+    color: orange;
+}
+.header h1 { 
+        display: inline-block;
+        font-size: 50px;
+}   
+    
+.header h1 .Alawamleh {
+        color: navy;
+        font-family: 'Nunito', sans-serif;
+}
+.header div {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.header div ul {
+    list-style-type: inherit;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: red;
+}    
+    
+a {
+    color: red;
+    text-decoration: navy;
+}
+    
+p {
+    font-size: 20px;
+}
+    
+.hero {
+        height: 600px;
+        width: auto;
+        margin-bottom: 25px;
+        background-image: url("images/hero.jpeg");
+        background-size: cover;
+        background-position: center;
+}
+    
+.float-left {
+        float: left;
+        margin-right: inherit;
+}  
+
+.float-right {
+        float: right;
+        margin-left: 25px;
+}
+
+.content {
+        width: 75%;
+        display: inline-block;
+        margin-left: 20px;
+}
+    
+        
+    .about-me {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        width: auto;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: whitesmoke;
+        color: navy;
+    }
+    
+    .projects {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        width: auto;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: whitesmoke;
+        color: navy;
+    }
+    
+    .contact-me {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        width: auto;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: whitesmoke;
+        color: orange;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    .about-me img {
+        max-height: 200px;
+    }
+    
+    .projects img {
+        max-height: 200px;
+    }
+    
+    .contact-me img {
+        max-height: 200px;
+    }
+    
+    .about-me h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    
+    .projects h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    
+    .contact-me h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    
