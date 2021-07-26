@@ -1,92 +1,276 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Stylish Portfolio - Start Bootstrap Template</title>
-    <!-- Favicon-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Blink's Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-    <!-- Simple line icons-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width, inital-scale=  1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Razi Alawamleh Portfolio</title>
-</head>
-<body>
-    <header class="header">
-        <h1>Razi<span class=" Alawamleh">Alawamleh</span></h1>
+  </head>
+
+  <body>
+    
+<!-- --------------------Start of Header -------------------------------------------- -->
+    <div class="container my-3">
+      <h1>Razi Alawamleh</h1>
+      <p class="lead">
+        Creativity and Imagination, Front-End Developer and Artist.
+      </p>
+    </div>
+
+<!-----------------------------Start Nav Bar--------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#about-me">About Me</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#work-experience">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact Me
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="#contact-me">Email and Phone</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/razi-alawamleh/">LinkedIn</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://github.com/ra8200">Github</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://www.instagram.com/blinksart/">Instagram</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!---------------------------------End Nav Bar--------------------------------------------->
+
+<!----------------------------------- Carousel --------------------------------------------------->
+
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-item active" data-bs-interval="2000">
+      <div class="overlay-image" style="background-image: url(./assets/images/code\ carousel.png);"></div>
+        <div class="carouselPics">
+            <h1>Front-End Development</h1>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="overlay-image" style="background-image: url(./assets/images/Insta\ Art.png);"></div>
+      <div class="carouselPics">
+        <h1>Art</h1>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="overlay-image" style="background-image: url(./assets/images/Blink\ Logo.jpg);"></div>
+      <div class="carouselPics">
+        <h1>Graphic Design</h1>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!---------------------------------- End of Carousel ---------------------------------------------->
+
+
+
+<!-------------------------------- Start Work and SKills Columns ------------------------------>
+
+<div class="container mt-3">
+  <div class="row">
+
+<!-- --------------------Columns --------------------- -->
+
+    <div class="col">
+      <h3 id="about-me" class="mb-3"><strong>About me</strong></h3>
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="mx-2">
+            <p>I am an aspiring front end developer switching from the IT Service Engineering field. Creating, fixing and improving upon things are what enjoy doing most. Let me know how I can help you and your company. </p>
+          </div>
+        </div>
+      </div>
+
+        <h3 id="work-experience" class="mb-3 "><strong>Work Experience</strong></h3>
+        <div class="card mb-3">
+        <div class="card-body">
+          <div class="mx-3">
+            <h4>Pruitt Health</h4>
+            <div><strong>Service Tech</strong></div>
+              Trouble shooting and Fixing daily user related IT issues
+              <ul class="list-group list-group-flush mt-2">
+                <li class="list-group-item bg-primary text-light">Utilized Active Directory to manage company employee profiles.</li>
+                <li class="list-group-item bg-primary text-light">Handled Citrix environment issues.</li>
+                <li class="list-group-item bg-primary text-light">Fixed any problems related to hardware equipment used by employees.</li>
+              </ul>
+          </div>
+        </div> 
+        </div>
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="mx-3">
+              <h4>Cox Communication</h4>
+              <div><strong>Support Engineer</strong></div>
+                Provided End-to-End customer service provisioning.
+              <ul class="list-group list-group-flush mt-2">
+                <li class="list-group-item bg-primary text-light">Utilized a ticketing system to correct reported errors.</li>
+                <li class="list-group-item bg-primary text-light">System support for telephony, Internet and Home security.</li>
+                <li class="list-group-item bg-primary text-light">Corrected system errors using a variety of proprietary tools designed by Cox.</li>
+              </ul>
+            </div>    
+          </div> 
+        </div>
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="mx-3">
+                <h4>OS National</h4>
+                <div><strong>Software Specialist</strong></div>
+                Application Admin for ResWare CMS and Intranet site.  
+            <ul class="list-group list-group-flush mt-2">
+                <li class="list-group-item bg-primary text-light">Utilized a ticketing system to correct reported errors.</li>
+                <li class="list-group-item bg-primary text-light">Created user processes in ResWare CMS based on company needs.</li>
+                <li class="list-group-item bg-primary text-light">Updated Intranet company website using HTML and CSS.</li>
+            </ul>
+           </div>    
+          </div> 
+        </div> 
         <div>
+          <h3 id="contact-me" class="mb-3"><strong>Contact Me</strong></h3>
+          <div class="card mb-3">
+        <div class="card-body">
+          <div class="mx-2">
             <ul>
-                <li>
-                    <a href="about-me"><strong>About Me</strong></a>
-                </li>
-                <li>
-                    <a href="projects"><strong>Projects</strong></a>
-                </li>
-                <li>
-                    <a href="contact-me"><strong>Contact Me</strong></a>
-                </li>
+              <li>
+                <h2>Email: razi.alawamleh@gmail.com</h2>
+              </li>
+              <li>
+                <h2>Phone: 678-267-1234</h2>
+              </li>
             </ul>
+          </div>
         </div>
-    </header>
-    <div class="hero"></div>
-    <main class="content">
-        <div id="password-generator" class="projects">
-            <a href="https://ra8200.github.io/Java-Password_Generator/" target="_blank"><img src="./assets/images/protfolio_password_gen.png" class="float-left" /></a>
-            <h2>Password Generator</h2>
-                <a href="https://github.com/ra8200/Java-Password_Generator" target="_blank">Password Generator</a>
-            <p>
-                Javascript Application to Generate Passwords based on User provided requirements.  
-            </p>
+          </div>
         </div>
-        <div id="CodeQuiz" class="projects">
-            <a href="https://ra8200.github.io/Coding-Game/" target="_blank"><img src="./assets/images/Code Quiz.png" class="float-right" /></a>
-            <h2>Coding Game</h2>
-                <a href="https://github.com/ra8200/Coding-Game" target="_blank">Coding Game</a>
-            <p>
-                Coding game built to using a timer to make it challenging. Try your luck!
-            </p>
-        </div>
-        <div id="weatherAPI" class="projects">
-            <a href="https://ra8200.github.io/Weather-Dashboard/" target="_blank"><img src="./assets/images/Weather_Dash.png" class="float-left" /></a>
-            <h2>The Best Weather App</h2>
-                <a href="https://github.com/ra8200/Weather-Dashboard" target="_blank">The Bestest Weather App</a>
-            <p>
-                The Best Weather Application that lets you see the weather of your city and whichever city you want. 
-            </p>
-        </div>
-        <div id="project1" class="projects">
-            <a href="https://github.com/ra8200/comics-assembled" target="_blank"><img src="./assets/images/project1.png" class="float-right" /></a>
-            <img src="assets/images/project1.png" class="float-right" />
-            <h2>Projects</h2>
-                <a href="https://github.com/ra8200/comics-assembled.git" target="_blank">Comics Assmebled</a>
-            <p>
-                Website built with a Super Group of Friends.
-            </p>
-        </div>
-        <div id="contact-me" class="contact-me">
-            <img src="assets/images/social_media.jpg" class="float-left" />
-            <h2>Contact Me</h2>
-            <ul>
-                <li><strong>Email:</strong><a href="#">razi.alawamleh@gmail.com</a></li>   
-                <li><strong>Github:</strong><a href="https://www.github.com/ra8200">Github</a></li>
-            </ul>
-        </div>
-    </main>
-</body>
+    </div> 
+
+
+
+
+    <div class="col"> 
+    
+      <h3 id="projects" class="mb-3 "><strong>Projects</strong></h3>
+      
+        <div class="col-lg-12">
+          <div class="col">
+            <div class="row">
+            <div class="card ">
+              <img src="./assets/images/password-gen.png" alt="Password Generator" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">Javascript Application to Generate Passwords based on User provided requirements.</p>
+                <a href="https://ra8200.github.io/Java-Password_Generator/" class="btn btn-dark">View Website</a>
+              </div>
+            </div>
+            <div class="card ">
+            <img src="./assets/images/Day Planner.png" alt="Day Planner" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Day Planner</h5>
+              <p class="card-text">Javascript Application to track a To-Do list.</p>
+              <a href="https://ra8200.github.io/Day-Planner//" class="btn btn-dark">View Website</a>
+            </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col"> 
+            <div class="row">        
+            <div class="card ">
+              <img src="./assets/images/Code Quiz.png" alt="Coding Quiz" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Coding Quiz</h5>
+                <p class="card-text">Javascript Game that tests your knowldge of Javascript coding with a timer.</p>
+                <a href="https://ra8200.github.io/Coding-Game/" class="btn btn-dark">View Website</a>
+              </div>
+            </div>
+            <div class="card ">
+              <img src="./assets/images/comics-assembled.png" alt="Password Generator" class="card-img-top">
+              <div class="card-body">
+               <h5 class="card-title">Comics Assembled</h5>
+                <p class="card-text">A Super Website made with an even super group of Friends.</p>
+                <a href="https://ra8200.github.io/comics-assembled/" class="btn btn-dark">View Website</a>
+              </div>
+            </div>
+          </div>  
+          </div>
+    
+  </div>
+</div>
+ 
+  </div>
+</div>
+</div>
+
+
+
+
+<!------------------------------------------ Start Footer ----------------------------------------->
+
+      <footer class="footer text-center">
+          <div class="container px-4 px-lg-5">
+              <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                      <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/razi-alawamleh/"><i class="icon-social-linkedin"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a class="social-link rounded-circle text-white" href="https://github.com/ra8200"><i class="icon-social-github"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-instagram"></i></a>
+                  </li>
+              </ul>
+              <p class="text-muted small mb-0">Copyright &copy; Your Website 2021</p>
+          </div>
+      </footer>
+
+<!-------------------------------------------- End Footer ----------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  </body>
 
 </html>
