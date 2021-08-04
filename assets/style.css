@@ -50,4 +50,16 @@ body {
     color: whitesmoke;
 }
 
+#profilePic {
+  max-height: 225px;
+  max-width: 200px;
+  width: 200px;
+  height: 225px;
+  padding:10px;
+  position: relative; 
+}
 
+#projectPic {
+  height: 200px;
+  padding-top: 10px;
+}
